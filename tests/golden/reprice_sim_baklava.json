@@ -1,0 +1,25 @@
+{
+  "dish": "Baklava au miel",
+  "variant": null,
+  "window_days": 90,
+  "elasticity": -1.2,
+  "current_price": 20,
+  "observed_avg_price": 20,
+  "new_price": 24,
+  "unit_cost": 5.76,
+  "baseline": {
+    "units": 42,
+    "revenue": 840,
+    "margin": 598.08
+  },
+  "projected": {
+    "units": 31.9,
+    "revenue": 766.08,
+    "margin": 582.22
+  },
+  "delta": {
+    "units_pct": -24,
+    "revenue": -73.92,
+    "margin": -15.86
+  }
+}

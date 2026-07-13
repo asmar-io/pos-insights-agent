@@ -1,0 +1,68 @@
+{
+  "dish": "Baklava au miel",
+  "variant": null,
+  "category": "Desserts",
+  "price": 20,
+  "reported_cost_total": 5.76,
+  "reported_margin": 14.24,
+  "reported_margin_pct": 71.2,
+  "effective_cost_total": 5.76,
+  "effective_margin": 14.24,
+  "effective_margin_pct": 71.2,
+  "breakdown": [
+    {
+      "ingredient": "Cannelle",
+      "quantity": 0.001,
+      "unit": "kg",
+      "reported_cost_per_unit": 100,
+      "effective_cost_per_unit": 100,
+      "reported_line_cost": 0.1,
+      "effective_line_cost": 0.1
+    },
+    {
+      "ingredient": "Sucre",
+      "quantity": 0.005,
+      "unit": "kg",
+      "reported_cost_per_unit": 12,
+      "effective_cost_per_unit": 12,
+      "reported_line_cost": 0.06,
+      "effective_line_cost": 0.06
+    },
+    {
+      "ingredient": "Beurre",
+      "quantity": 0.01,
+      "unit": "kg",
+      "reported_cost_per_unit": 80,
+      "effective_cost_per_unit": 80,
+      "reported_line_cost": 0.8,
+      "effective_line_cost": 0.8
+    },
+    {
+      "ingredient": "Miel",
+      "quantity": 0.01,
+      "unit": "kg",
+      "reported_cost_per_unit": 100,
+      "effective_cost_per_unit": 100,
+      "reported_line_cost": 1,
+      "effective_line_cost": 1
+    },
+    {
+      "ingredient": "Amandes",
+      "quantity": 0.015,
+      "unit": "kg",
+      "reported_cost_per_unit": 120,
+      "effective_cost_per_unit": 120,
+      "reported_line_cost": 1.8,
+      "effective_line_cost": 1.8
+    },
+    {
+      "ingredient": "Feuilles de brick",
+      "quantity": 2,
+      "unit": "pièce",
+      "reported_cost_per_unit": 1,
+      "effective_cost_per_unit": 1,
+      "reported_line_cost": 2,
+      "effective_line_cost": 2
+    }
+  ]
+}

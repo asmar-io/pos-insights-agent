@@ -1,0 +1,218 @@
+[
+  {
+    "item_id": "fb81f905-a69a-4d40-b639-f24e83633749",
+    "name": "Harira",
+    "description": "Soupe traditionnelle de tomate, pois chiches et lentilles.",
+    "category": "Entrées",
+    "price": 25,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "0a270c1f-56c4-4673-a1ff-b97059bf4a95",
+    "name": "Briouates aux crevettes",
+    "description": "4 briouates croustillantes aux crevettes et coriandre.",
+    "category": "Entrées",
+    "price": 45,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "a89710e1-af9f-4ace-b96c-1af0323b9b9b",
+    "name": "Zaalouk",
+    "description": "Caviar d'aubergine à la tomate, ail et cumin.",
+    "category": "Entrées",
+    "price": 30,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "63da400f-9b04-41ba-ab3c-2c62f87bb7db",
+    "name": "Tagine d'agneau aux pruneaux",
+    "description": "Épaule d'agneau confite aux pruneaux, amandes et cannelle.",
+    "category": "Tagines",
+    "price": 85,
+    "variant_count": 2,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "2ccc6e83-f7c8-4030-b328-e2f491f4452c",
+    "name": "Tagine de poulet aux olives et citron confit",
+    "description": "Cuisses de poulet mijotées aux olives vertes et citron confit.",
+    "category": "Tagines",
+    "price": 70,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "01ba1cfc-db83-40e5-9b34-12f06927aa64",
+    "name": "Tagine kefta aux oeufs",
+    "description": "Boulettes de boeuf haché aux oeufs et sauce tomate épicée.",
+    "category": "Tagines",
+    "price": 65,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "282bbf71-510e-4aa9-b823-9dce22ca0b6b",
+    "name": "Tagine de poisson aux légumes",
+    "description": "Poisson blanc aux tomates, poivrons et pommes de terre.",
+    "category": "Tagines",
+    "price": 75,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "8e8e1835-1f51-4c3b-9be6-65aab178d9df",
+    "name": "Tagine boeuf aux amandes",
+    "description": "Boeuf mijoté aux amandes grillées et miel.",
+    "category": "Tagines",
+    "price": 90,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "ae5020ee-233c-4044-8607-a5eef391379e",
+    "name": "Tagine berbère végétarien",
+    "description": "Mélange de légumes racines et pois chiches aux épices.",
+    "category": "Tagines",
+    "price": 55,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "7bb78cf9-d78c-48ba-9810-41a789b177da",
+    "name": "Couscous royal",
+    "description": "Semoule fine, agneau, poulet, merguez et 7 légumes.",
+    "category": "Couscous",
+    "price": 95,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "e9885993-08ac-42dd-b8e5-ac208fce691b",
+    "name": "Couscous poulet",
+    "description": "Semoule fine, cuisses de poulet et légumes de saison.",
+    "category": "Couscous",
+    "price": 70,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "d296e20f-3ccf-45b7-b5b2-e467dd4a2eb4",
+    "name": "Couscous végétarien",
+    "description": "Semoule fine et 7 légumes en bouillon parfumé.",
+    "category": "Couscous",
+    "price": 50,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "6731644a-aca8-40a2-9cdd-adc002d48242",
+    "name": "Brochettes de poulet",
+    "description": "4 brochettes de poulet marinées, salade et pain.",
+    "category": "Grillades",
+    "price": 55,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "25abce23-28a2-42ca-913d-54df35faee3f",
+    "name": "Brochettes de boeuf",
+    "description": "4 brochettes de boeuf marinées, salade et pain.",
+    "category": "Grillades",
+    "price": 65,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "fa5fc28d-5eb4-431a-a04c-baee7487c9fa",
+    "name": "Brochettes d'agneau",
+    "description": "4 brochettes d'agneau marinées, salade et pain.",
+    "category": "Grillades",
+    "price": 75,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "211383be-5ef4-4f07-9b15-4d5e128681d8",
+    "name": "Kefta grillée",
+    "description": "Boulettes de boeuf haché épicées grillées au charbon.",
+    "category": "Grillades",
+    "price": 60,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "062fa032-7766-4012-8bbc-c9f82594e8f3",
+    "name": "Poisson grillé",
+    "description": "Filet de poisson blanc grillé, chermoula et citron.",
+    "category": "Grillades",
+    "price": 80,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "878f6668-49c8-4c4d-b235-0ee63ff7fcb8",
+    "name": "Salade marocaine",
+    "description": "Tomate, concombre, oignon rouge, olives et menthe.",
+    "category": "Salades",
+    "price": 25,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "0ee8d93c-cc75-43e3-ba6a-aecb5a84c147",
+    "name": "Salade César marocaine",
+    "description": "Salade verte, poulet grillé, croûtons et sauce épicée.",
+    "category": "Salades",
+    "price": 40,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "bbecc112-746b-48f9-ae83-eb5496a8af18",
+    "name": "Baklava au miel",
+    "description": "Feuilles de brick, amandes, miel et cannelle.",
+    "category": "Desserts",
+    "price": 20,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "e54b4e8f-4c05-4b53-85d0-f350cb575698",
+    "name": "Chebakia",
+    "description": "2 pièces de chebakia trempées dans le miel et graines de sésame.",
+    "category": "Desserts",
+    "price": 15,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "bf87e9f6-9025-4cae-b077-0ed74c121e57",
+    "name": "Corne de gazelle",
+    "description": "Pâtisserie en forme de croissant fourrée aux amandes.",
+    "category": "Desserts",
+    "price": 12,
+    "variant_count": 0,
+    "modifier_count": 0
+  },
+  {
+    "item_id": "3d56b0ae-258a-4de1-ba4d-290e301b4242",
+    "name": "Thé à la menthe",
+    "description": "Théière de thé vert à la menthe fraîche et sucre.",
+    "category": "Boissons",
+    "price": 15,
+    "variant_count": 0,
+    "modifier_count": 2
+  },
+  {
+    "item_id": "f83b635a-0694-4f4a-841e-c55c8f501b25",
+    "name": "Café",
+    "description": "Café noir serré ou café au lait.",
+    "category": "Boissons",
+    "price": 10,
+    "variant_count": 0,
+    "modifier_count": 2
+  }
+]

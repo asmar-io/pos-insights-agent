@@ -1,0 +1,110 @@
+{
+  "metric": "revenue",
+  "window_days": 7,
+  "window": {
+    "start": "2026-07-06T23:59:59.000Z",
+    "end": "2026-07-13T23:59:59.000Z"
+  },
+  "rows": [
+    {
+      "dish": "Tagine d'agneau aux pruneaux",
+      "variant": "Grand",
+      "units_sold": 33,
+      "revenue": 3630,
+      "avg_unit_price": 110,
+      "unit_cost": 94.6,
+      "margin": 508.2,
+      "margin_pct": 14
+    },
+    {
+      "dish": "Tagine de poulet aux olives et citron confit",
+      "variant": null,
+      "units_sold": 47,
+      "revenue": 3290,
+      "avg_unit_price": 70,
+      "unit_cost": 23,
+      "margin": 2209,
+      "margin_pct": 67.1
+    },
+    {
+      "dish": "Brochettes de poulet",
+      "variant": null,
+      "units_sold": 47,
+      "revenue": 2585,
+      "avg_unit_price": 55,
+      "unit_cost": 10.42,
+      "margin": 2095.26,
+      "margin_pct": 81.1
+    },
+    {
+      "dish": "Kefta grillée",
+      "variant": null,
+      "units_sold": 43,
+      "revenue": 2580,
+      "avg_unit_price": 60,
+      "unit_cost": 19.32,
+      "margin": 1749.24,
+      "margin_pct": 67.8
+    },
+    {
+      "dish": "Tagine kefta aux oeufs",
+      "variant": null,
+      "units_sold": 39,
+      "revenue": 2535,
+      "avg_unit_price": 65,
+      "unit_cost": 22.74,
+      "margin": 1648.14,
+      "margin_pct": 65
+    },
+    {
+      "dish": "Tagine boeuf aux amandes",
+      "variant": null,
+      "units_sold": 27,
+      "revenue": 2430,
+      "avg_unit_price": 90,
+      "unit_cost": 34.2,
+      "margin": 1506.6,
+      "margin_pct": 62
+    },
+    {
+      "dish": "Couscous royal",
+      "variant": null,
+      "units_sold": 24,
+      "revenue": 2280,
+      "avg_unit_price": 95,
+      "unit_cost": 28.94,
+      "margin": 1585.44,
+      "margin_pct": 69.5
+    },
+    {
+      "dish": "Brochettes d'agneau",
+      "variant": null,
+      "units_sold": 25,
+      "revenue": 1875,
+      "avg_unit_price": 75,
+      "unit_cost": 19.92,
+      "margin": 1377,
+      "margin_pct": 73.4
+    },
+    {
+      "dish": "Couscous poulet",
+      "variant": null,
+      "units_sold": 26,
+      "revenue": 1820,
+      "avg_unit_price": 70,
+      "unit_cost": 21.31,
+      "margin": 1265.94,
+      "margin_pct": 69.6
+    },
+    {
+      "dish": "Tagine d'agneau aux pruneaux",
+      "variant": "Petit",
+      "units_sold": 21,
+      "revenue": 1785,
+      "avg_unit_price": 85,
+      "unit_cost": 34.43,
+      "margin": 1061.97,
+      "margin_pct": 59.5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "ingredient": "Agneau",
+    "unit": "kg",
+    "reported_cost_per_unit": 85,
+    "effective_cost_per_unit": 92.5,
+    "delta_pct": 8.8,
+    "purchases_used": 13,
+    "window_days": 90
+  }
+]

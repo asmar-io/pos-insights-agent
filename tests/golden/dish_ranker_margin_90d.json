@@ -1,0 +1,110 @@
+{
+  "metric": "margin_pct",
+  "window_days": 90,
+  "window": {
+    "start": "2026-04-14T23:59:59.000Z",
+    "end": "2026-07-13T23:59:59.000Z"
+  },
+  "rows": [
+    {
+      "dish": "Café",
+      "variant": null,
+      "units_sold": 729,
+      "revenue": 8722,
+      "avg_unit_price": 11.96,
+      "unit_cost": 0.96,
+      "margin": 8019,
+      "margin_pct": 92
+    },
+    {
+      "dish": "Thé à la menthe",
+      "variant": null,
+      "units_sold": 988,
+      "revenue": 15472,
+      "avg_unit_price": 15.66,
+      "unit_cost": 1.49,
+      "margin": 13999.96,
+      "margin_pct": 90.5
+    },
+    {
+      "dish": "Harira",
+      "variant": null,
+      "units_sold": 432,
+      "revenue": 10800,
+      "avg_unit_price": 25,
+      "unit_cost": 2.94,
+      "margin": 9529.92,
+      "margin_pct": 88.2
+    },
+    {
+      "dish": "Tagine berbère végétarien",
+      "variant": null,
+      "units_sold": 197,
+      "revenue": 10835,
+      "avg_unit_price": 55,
+      "unit_cost": 7.5,
+      "margin": 9357.5,
+      "margin_pct": 86.4
+    },
+    {
+      "dish": "Salade marocaine",
+      "variant": null,
+      "units_sold": 296,
+      "revenue": 7400,
+      "avg_unit_price": 25,
+      "unit_cost": 3.87,
+      "margin": 6254.48,
+      "margin_pct": 84.5
+    },
+    {
+      "dish": "Zaalouk",
+      "variant": null,
+      "units_sold": 260,
+      "revenue": 7800,
+      "avg_unit_price": 30,
+      "unit_cost": 4.68,
+      "margin": 6583.2,
+      "margin_pct": 84.4
+    },
+    {
+      "dish": "Salade César marocaine",
+      "variant": null,
+      "units_sold": 206,
+      "revenue": 8240,
+      "avg_unit_price": 40,
+      "unit_cost": 6.94,
+      "margin": 6810.36,
+      "margin_pct": 82.7
+    },
+    {
+      "dish": "Couscous végétarien",
+      "variant": null,
+      "units_sold": 139,
+      "revenue": 6950,
+      "avg_unit_price": 50,
+      "unit_cost": 9.35,
+      "margin": 5650.35,
+      "margin_pct": 81.3
+    },
+    {
+      "dish": "Brochettes de poulet",
+      "variant": null,
+      "units_sold": 521,
+      "revenue": 28655,
+      "avg_unit_price": 55,
+      "unit_cost": 10.42,
+      "margin": 23226.18,
+      "margin_pct": 81.1
+    },
+    {
+      "dish": "Chebakia",
+      "variant": null,
+      "units_sold": 151,
+      "revenue": 2265,
+      "avg_unit_price": 15,
+      "unit_cost": 3.32,
+      "margin": 1763.68,
+      "margin_pct": 77.9
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "dish": "Tagine d'agneau aux pruneaux",
+  "variant": "Grand",
+  "category": "Tagines",
+  "price": 110,
+  "reported_cost_total": 88.6,
+  "reported_margin": 21.4,
+  "reported_margin_pct": 19.5,
+  "effective_cost_total": 94.6,
+  "effective_margin": 15.4,
+  "effective_margin_pct": 14,
+  "breakdown": [
+    {
+      "ingredient": "Cannelle",
+      "quantity": 0.003,
+      "unit": "kg",
+      "reported_cost_per_unit": 100,
+      "effective_cost_per_unit": 100,
+      "reported_line_cost": 0.3,
+      "effective_line_cost": 0.3
+    },
+    {
+      "ingredient": "Pruneaux",
+      "quantity": 0.1,
+      "unit": "kg",
+      "reported_cost_per_unit": 60,
+      "effective_cost_per_unit": 60,
+      "reported_line_cost": 6,
+      "effective_line_cost": 6
+    },
+    {
+      "ingredient": "Ras el hanout",
+      "quantity": 0.008,
+      "unit": "kg",
+      "reported_cost_per_unit": 200,
+      "effective_cost_per_unit": 200,
+      "reported_line_cost": 1.6,
+      "effective_line_cost": 1.6
+    },
+    {
+      "ingredient": "Agneau",
+      "quantity": 0.8,
+      "unit": "kg",
+      "reported_cost_per_unit": 85,
+      "effective_cost_per_unit": 92.5,
+      "reported_line_cost": 68,
+      "effective_line_cost": 74
+    },
+    {
+      "ingredient": "Oignon",
+      "quantity": 0.15,
+      "unit": "kg",
+      "reported_cost_per_unit": 8,
+      "effective_cost_per_unit": 8,
+      "reported_line_cost": 1.2,
+      "effective_line_cost": 1.2
+    },
+    {
+      "ingredient": "Miel",
+      "quantity": 0.025,
+      "unit": "kg",
+      "reported_cost_per_unit": 100,
+      "effective_cost_per_unit": 100,
+      "reported_line_cost": 2.5,
+      "effective_line_cost": 2.5
+    },
+    {
+      "ingredient": "Amandes",
+      "quantity": 0.06,
+      "unit": "kg",
+      "reported_cost_per_unit": 120,
+      "effective_cost_per_unit": 120,
+      "reported_line_cost": 7.2,
+      "effective_line_cost": 7.2
+    },
+    {
+      "ingredient": "Huile d'olive",
+      "quantity": 0.03,
+      "unit": "L",
+      "reported_cost_per_unit": 60,
+      "effective_cost_per_unit": 60,
+      "reported_line_cost": 1.8,
+      "effective_line_cost": 1.8
+    }
+  ]
+}

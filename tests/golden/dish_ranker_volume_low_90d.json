@@ -1,0 +1,60 @@
+{
+  "metric": "volume",
+  "window_days": 90,
+  "window": {
+    "start": "2026-04-14T23:59:59.000Z",
+    "end": "2026-07-13T23:59:59.000Z"
+  },
+  "rows": [
+    {
+      "dish": "Baklava au miel",
+      "variant": null,
+      "units_sold": 42,
+      "revenue": 840,
+      "avg_unit_price": 20,
+      "unit_cost": 5.76,
+      "margin": 598.08,
+      "margin_pct": 71.2
+    },
+    {
+      "dish": "Corne de gazelle",
+      "variant": null,
+      "units_sold": 104,
+      "revenue": 1248,
+      "avg_unit_price": 12,
+      "unit_cost": 3.62,
+      "margin": 871.52,
+      "margin_pct": 69.8
+    },
+    {
+      "dish": "Couscous végétarien",
+      "variant": null,
+      "units_sold": 139,
+      "revenue": 6950,
+      "avg_unit_price": 50,
+      "unit_cost": 9.35,
+      "margin": 5650.35,
+      "margin_pct": 81.3
+    },
+    {
+      "dish": "Chebakia",
+      "variant": null,
+      "units_sold": 151,
+      "revenue": 2265,
+      "avg_unit_price": 15,
+      "unit_cost": 3.32,
+      "margin": 1763.68,
+      "margin_pct": 77.9
+    },
+    {
+      "dish": "Tagine berbère végétarien",
+      "variant": null,
+      "units_sold": 197,
+      "revenue": 10835,
+      "avg_unit_price": 55,
+      "unit_cost": 7.5,
+      "margin": 9357.5,
+      "margin_pct": 86.4
+    }
+  ]
+}
