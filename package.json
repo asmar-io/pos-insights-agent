@@ -1,0 +1,58 @@
+{
+  "name": "menu-margin-agent",
+  "version": "0.1.0",
+  "description": "An AI agent that reads restaurant POS data and delivers weekly CFO-level insights on menu profitability.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Tohami Ben <contact@labraise.ma> (https://github.com/asmar-io)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmar-io/menu-margin-agent.git"
+  },
+  "keywords": [
+    "ai-agent",
+    "anthropic",
+    "claude",
+    "gemini",
+    "vercel-ai-sdk",
+    "restaurant",
+    "saas",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "menu-margin-agent": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "seed": "tsx examples/chez-fatima/seed.ts",
+    "hello": "tsx src/agent/hello.ts",
+    "cli": "tsx src/cli.ts",
+    "report": "tsx src/cli.ts report"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.12",
+    "@ai-sdk/google": "^4.0.12",
+    "ai": "^7.0.22",
+    "better-sqlite3": "^12.11.1",
+    "commander": "^15.0.0",
+    "dotenv": "^17.4.2",
+    "hono": "^4.12.30",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.3",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}
