@@ -1,5 +1,5 @@
 {
-  "name": "menu-margin-agent",
+  "name": "pos-insights-agent",
   "version": "0.1.0",
   "description": "An AI agent that reads restaurant POS data and delivers weekly CFO-level insights on menu profitability.",
   "type": "module",
@@ -7,7 +7,7 @@
   "author": "Tohami Ben <contact@labraise.ma> (https://github.com/asmar-io)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asmar-io/menu-margin-agent.git"
+    "url": "git+https://github.com/asmar-io/pos-insights-agent.git"
   },
   "keywords": [
     "ai-agent",
@@ -23,7 +23,7 @@
     "node": ">=20"
   },
   "bin": {
-    "menu-margin-agent": "./dist/cli.js"
+    "pos-insights-agent": "./dist/cli.js"
   },
   "scripts": {
     "build": "tsc",

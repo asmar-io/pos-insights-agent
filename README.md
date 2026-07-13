@@ -1,4 +1,4 @@
-# menu-margin-agent
+# pos-insights-agent
 
 > An AI agent that reads restaurant POS data and delivers weekly CFO-level insights on menu profitability.
 
@@ -17,8 +17,8 @@ Built with the [Vercel AI SDK](https://sdk.vercel.ai), targeting **Google Gemini
 ## Quickstart
 
 ```bash
-git clone https://github.com/asmar-io/menu-margin-agent.git
-cd menu-margin-agent
+git clone https://github.com/asmar-io/pos-insights-agent.git
+cd pos-insights-agent
 npm install
 cp .env.example .env       # then edit .env and add your Gemini key
 npm run seed               # generates the "Chez Fatima" demo restaurant
