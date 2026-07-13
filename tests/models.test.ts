@@ -26,7 +26,7 @@ describe("getModel", () => {
     setEnv({ MODEL_TIER: "free" });
     const model = getModel();
     expect(model).toBeDefined();
-    expect(getModelId()).toBe("gemini-2.5-flash");
+    expect(getModelId()).toBe("gemini-flash-lite-latest");
   });
 
   it("returns a LanguageModel for the pro tier", () => {
@@ -38,7 +38,7 @@ describe("getModel", () => {
 
   it("defaults to the free tier when MODEL_TIER is unset", () => {
     setEnv({ MODEL_TIER: undefined });
-    expect(getModelId()).toBe("gemini-2.5-flash");
+    expect(getModelId()).toBe("gemini-flash-lite-latest");
   });
 
   it("lets an explicit argument override the env tier", () => {

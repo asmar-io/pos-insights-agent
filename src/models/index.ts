@@ -9,7 +9,7 @@ import { google } from "@ai-sdk/google";
 import type { LanguageModel } from "ai";
 import { getEnv, type Tier } from "../config/env.js";
 
-const FREE_MODEL_ID = "gemini-2.5-flash";
+const FREE_MODEL_ID = "gemini-flash-lite-latest";
 const PRO_MODEL_ID = "claude-sonnet-4-6";
 
 export function getModel(tier?: Tier): LanguageModel {

@@ -29,7 +29,7 @@ npm run report examples/chez-fatima/data.db
 
 | Tier | Model | Cost | Use case |
 |---|---|---|---|
-| `free` | `gemini-2.5-flash` | free tier | demos, open-source, low-stakes |
+| `free` | `gemini-flash-lite-latest` | free tier | demos, open-source, low-stakes |
 | `pro` | `claude-sonnet-4-6` | pay-per-token | production, higher stakes |
 
 Swap tiers with one env var. Same tools, same prompts, same output shape.

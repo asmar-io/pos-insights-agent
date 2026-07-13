@@ -7,10 +7,16 @@ import { z } from "zod";
 const TierSchema = z.enum(["free", "pro"]);
 export type Tier = z.infer<typeof TierSchema>;
 
+// Treat empty-string env values (e.g. `KEY=` in .env) as absent.
+const OptionalNonEmpty = z.preprocess(
+  (v) => (typeof v === "string" && v.trim() === "" ? undefined : v),
+  z.string().min(1).optional(),
+);
+
 const EnvSchema = z.object({
   MODEL_TIER: TierSchema.default("free"),
-  GOOGLE_GENERATIVE_AI_API_KEY: z.string().min(1).optional(),
-  ANTHROPIC_API_KEY: z.string().min(1).optional(),
+  GOOGLE_GENERATIVE_AI_API_KEY: OptionalNonEmpty,
+  ANTHROPIC_API_KEY: OptionalNonEmpty,
 });
 
 export type Env = z.infer<typeof EnvSchema>;
