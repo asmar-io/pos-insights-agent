@@ -86,6 +86,56 @@ Get a free Gemini key at [aistudio.google.com/apikey](https://aistudio.google.co
 - **Agent** (`src/agent/weekly_brief.ts`) — a `generateText()` call with a CFO-style system prompt, tool loop capped at 12 steps.
 - **CLI** (`src/cli.ts`) — `commander`-based; writes the brief to stdout or `--out <path>`.
 
+## Eval harness
+
+Any AI agent that produces prose needs a way to answer "does it actually work?" beyond eyeballing. This repo ships a small eval harness that grades every brief against the four planted problems in the fixture.
+
+```bash
+pos-insights-agent eval examples/chez-fatima/data.db --out reports/eval.md
+```
+
+Two layers of scoring:
+
+- **Deterministic rubric** (`src/evals/rubric.ts`) — for each planted problem, checks (a) topic keywords and (b) expected numbers within a percentage tolerance. Pure string/number logic, no LLM. Runs are comparable across models and commits.
+- **LLM-as-judge** (`src/evals/judge.ts`) — a `generateObject` call against gemini-flash-lite (hard-pinned to keep evals cheap even when the drafter runs on Claude). Produces a per-item narrative critique + overall score.
+
+If the rubric score falls below `--threshold` (default 0.75), the runner triggers a **revision pass**: the draft plus the combined critique are fed back into `generateWeeklyBrief`, which rewrites the brief with the same tools available. The report shows both scores side-by-side so you can see whether the critic actually helped.
+
+```
+> draft 50% (2/4) → revised 100% (4/4)
+```
+
+Flags:
+
+| Flag | Default | Effect |
+|---|---|---|
+| `--threshold <n>` | `0.75` | Revise when rubric score is below this |
+| `--no-revise` | off | Skip the revision pass entirely |
+| `--no-judge` | off | Skip the LLM judge (rubric-only scoring, no API cost for the judge) |
+| `--out <path>` | stdout | Write the eval report as markdown |
+
+## Chat REPL
+
+A follow-up mode for the brief. `chat` opens a stateful REPL that shares the same five tools + message history — the owner can drill into anything the brief mentioned.
+
+```bash
+pos-insights-agent chat examples/chez-fatima/data.db
+```
+
+```
+> generating the weekly brief first…
+[…brief prints here…]
+owner> why baklava?
+> [analyst tool-calls dish_ranker + margin_calc, then explains]
+owner> sim +15% on the Grand tagine
+> [analyst tool-calls reprice_sim and returns the projection]
+owner> /save chat.md
+> wrote chat.md
+owner> /exit
+```
+
+Commands: `/help`, `/reset`, `/save <path>`, `/exit`. Add `--skip-brief` to start with an empty conversation.
+
 ## Model tiers
 
 | Tier | Model | Cost | Use case |
@@ -113,7 +163,7 @@ The seed is deterministic (`SEED = 42`), so every clone produces the exact same 
 ## Testing
 
 ```bash
-npm test          # 38 tests: 8 adapter + 9 model + 11 tools + 9 golden + 1 hello
+npm test          # 56 tests: 8 adapter + 9 model + 11 tools + 9 golden + 12 evals + 6 chat + 1 sanity
 npm run typecheck
 npm run lint
 ```
@@ -124,6 +174,8 @@ npm run lint
 - [x] Free/pro model abstraction
 - [x] Five agent tools with golden snapshots
 - [x] Weekly-brief agent + CLI
+- [x] Eval harness (rubric + LLM-as-judge + critique-informed revision)
+- [x] Chat REPL (stateful follow-ups, shares tools with the brief)
 - [ ] Postgres adapter (targets the same schema — drop-in swap for real restaurants)
 - [ ] Web demo (browse-generate-share)
 - [ ] Slack / email delivery

@@ -19,6 +19,15 @@ export type BriefOptions = {
   anchorIso?: string;
   /** Cap on tool-calling steps. Default 12 — plenty for the 5 tools. */
   maxSteps?: number;
+  /**
+   * When set, treat this run as a revision of an earlier draft. The
+   * previous draft plus the critique are appended to the prompt so the
+   * model rewrites — not regenerates from scratch — using the same tools.
+   */
+  revision?: {
+    previousDraft: string;
+    critique: string;
+  };
 };
 
 export type BriefResult = {
@@ -73,10 +82,24 @@ export async function generateWeeklyBrief(opts: BriefOptions): Promise<BriefResu
     const model = getModel();
     const modelId = getModelId();
 
+    const prompt = opts.revision
+      ? [
+          USER_PROMPT,
+          "",
+          "── Previous draft ──",
+          opts.revision.previousDraft,
+          "",
+          "── Critique from the reviewer ──",
+          opts.revision.critique,
+          "",
+          "Rewrite the brief above so it addresses every point in the critique. Call tools again to ground any new numbers you cite. Keep the same 5-section structure.",
+        ].join("\n")
+      : USER_PROMPT;
+
     const { text, usage } = await generateText({
       model,
       system: SYSTEM_PROMPT,
-      prompt: USER_PROMPT,
+      prompt,
       tools,
       stopWhen: stepCountIs(opts.maxSteps ?? 12),
       temperature: env.MODEL_TIER === "free" ? 0.2 : 0.4,
